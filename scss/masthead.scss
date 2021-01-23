@@ -1,3 +1,27 @@
 .illustration_img {
     width: 100%;
 }
+
+.main_container {
+    p {
+        padding-bottom: 20px;
+    }
+}
+
+@media(min-width:980px) {
+    .main_container {
+        display: flex;
+        flex-direction: row;
+        gap: 100px;
+        padding-top: 100px;
+        .img_container {
+            order: 1;
+        }
+        .article_container {
+            width: 546px;
+        }
+        .button_get_started {
+            display: inline-block;
+        }
+    }
+}
