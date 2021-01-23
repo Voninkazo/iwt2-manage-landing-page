@@ -1,3 +1,36 @@
 body {
     margin: 0;
+    font-family: 'Be Vietnam';
+}
+
+.container {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h2 {
+    font-family: 'Be Vietnam Bold';
+    font-size: 36px;
+    line-height: 40px;
+    color: hsl(233, 12%, 13%);
+    font-weight: bold;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+@media (min-width: 980px) {
+    .container {
+        max-width: 980px;
+        margin: auto;
+        padding-left: 0;
+        padding-right: 0;
+    }
 }

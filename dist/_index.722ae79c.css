@@ -1,5 +1,162 @@
+@font-face {
+  font-family: "Be Vietnam";
+  font-weight: normal;
+  font-style: normal;
+  src: url(/be_vietnam.5420d373.woff2) format(woff2), url(/be_vietnam.1a1ba0b7.woff) format(woff);
+}
+@font-face {
+  font-family: "Be Vietnam Bold";
+  font-weight: bold;
+  font-style: normal;
+  src: url(/bevietnam-bold.5ee22e8e.woff2) format(woff2), url(/bevietnam-bold.cbc579c3.woff) format(woff2);
+}
 body {
   margin: 0;
+  font-family: "Be Vietnam";
+}
+
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h2 {
+  font-family: "Be Vietnam Bold";
+  font-size: 36px;
+  line-height: 40px;
+  color: #1d1e25;
+  font-weight: bold;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+@media (min-width: 980px) {
+  .container {
+    max-width: 980px;
+    margin: auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+.header_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.header_container .button_get_started {
+  display: none;
+}
+.header_container label {
+  position: absolute;
+  top: 5%;
+  right: 20px;
+  cursor: pointer;
+}
+
+@media (min-width: 980px) {
+  .header_container {
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+  }
+  .header_container p {
+    order: 1;
+    margin-left: 20px;
+  }
+  .header_container .button_get_started {
+    display: block;
+  }
+}
+.illustration_img {
+  width: 100%;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+header nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: white;
+  z-index: 3;
+  width: 90%;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 5px;
+  transform: translateX(-110%);
+  transition: transform 0.3s;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+label.icon_close {
+  display: none;
+}
+
+input[type=checkbox]:checked ~ header nav {
+  top: 16%;
+  left: 20px;
+  transform: translateX(0);
+}
+
+input[type=checkbox]:checked ~ header label.icon_open_menu {
+  display: none;
+}
+
+input[type=checkbox]:checked ~ header label.icon_close {
+  display: block;
+}
+
+.navigation ul {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+.navigation ul li:not(:nth-of-type(1)) {
+  margin-top: 30px;
+}
+.navigation ul li a {
+  font-size: 16px;
+  line-height: 22px;
+  color: #00008B;
+  font-weight: 700;
+}
+
+@media (min-width: 980px) {
+  header nav {
+    position: static;
+    transition: none;
+    transform: none;
+    box-shadow: none;
+    width: auto;
+    padding: 0;
+  }
+
+  header label {
+    display: none;
+  }
+
+  .navigation ul {
+    flex-direction: row;
+  }
+  .navigation ul li {
+    margin-top: 0;
+    margin-left: 20px;
+  }
+  .navigation ul li:not(:nth-of-type(1)) {
+    margin-top: 0;
+  }
 }
 
 /*# sourceMappingURL=/_index.722ae79c.css.map */

@@ -1,0 +1,90 @@
+    input[type="checkbox"] {
+        display: none;
+    }
+    
+    header nav {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: white;
+        z-index: 3;
+        width: 90%;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        border-radius: 5px;
+        transform: translateX(-110%);
+        transition: transform 0.3s;
+        box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+    }
+    
+    label.icon_close {
+        display: none;
+    }
+    
+    input[type="checkbox"]:checked~header nav {
+        top: 16%;
+        left: 20px;
+        transform: translateX(0);
+    }
+    
+    input[type="checkbox"]:checked~header label.icon_open_menu {
+        display: none;
+    }
+    
+    input[type="checkbox"]:checked~header label.icon_close {
+        display: block;
+    }
+    
+    .navigation {
+        ul {
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            li:not(:nth-of-type(1)) {
+                margin-top: 30px;
+            }
+            li a {
+                font-size: 16px;
+                line-height: 22px;
+                color: #00008B;
+                font-weight: 700;
+            }
+        }
+    }
+    
+    @media (min-width: 980px) {
+        header nav {
+            position: static;
+            transition: none;
+            transform: none;
+            box-shadow: none;
+            width: auto;
+            padding: 0;
+        }
+        header label {
+            display: none;
+        }
+        .navigation {
+            ul {
+                flex-direction: row;
+                li {
+                    margin-top: 0;
+                    margin-left: 20px;
+                }
+                li:not(:nth-of-type(1)) {
+                    margin-top: 0;
+                    // margin-left: 0;
+                }
+            }
+        }
+    }
+    
+    // input[type="checkbox"]:checked~header nav {
+    //     position: relative;
+    //     width: auto;
+    //     height: auto;
+    //     transform: none;
+    //     transition: none;
+    //     box-shadow: none;
+    // }

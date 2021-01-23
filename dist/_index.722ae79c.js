@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./..\\fonts\\be_vietnam.woff2":[["be_vietnam.5420d373.woff2","fonts/be_vietnam.woff2"],"fonts/be_vietnam.woff2"],"./..\\fonts\\be_vietnam.woff":[["be_vietnam.1a1ba0b7.woff","fonts/be_vietnam.woff"],"fonts/be_vietnam.woff"],"./..\\fonts\\bevietnam-bold.woff2":[["bevietnam-bold.5ee22e8e.woff2","fonts/bevietnam-bold.woff2"],"fonts/bevietnam-bold.woff2"],"./..\\fonts\\bevietnam-bold.woff":[["bevietnam-bold.cbc579c3.woff","fonts/bevietnam-bold.woff"],"fonts/bevietnam-bold.woff"],"_css_loader":"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
