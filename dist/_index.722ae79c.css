@@ -343,11 +343,16 @@ nav.pages_navigation ul li .nav_item_active {
 }
 
 @media (min-width: 980px) {
-  .section_advertisement_container {
+  .section_advertisement .section_advertisement_container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: baseline;
+    gap: 250px;
+    padding: 0;
+  }
+  .section_advertisement .section_advertisement_container h2 {
+    text-align: start;
   }
 }
 body > footer {
@@ -415,6 +420,7 @@ body > footer nav ul li {
 }
 body > footer nav ul li a {
   color: #ffffff;
+  white-space: nowrap;
 }
 
 @media (min-width: 980px) {
