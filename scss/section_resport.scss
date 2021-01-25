@@ -1,4 +1,8 @@
 .section_report_container {
+    .button_start_container {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
     h3 {
         margin: 0;
         padding-top: 50px;
@@ -46,9 +50,9 @@
                 display: block;
             }
         }
-        .button_start_container {
-            padding-top: 20px;
-            padding-bottom: 20px;
-        }
+        // .button_start_container {
+        //     padding-top: 20px;
+        //     padding-bottom: 20px;
+        // }
     }
 }
