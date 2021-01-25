@@ -1,0 +1,28 @@
+.footer_form {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-bottom: 40px;
+    input {
+        padding: 11px 30px;
+        background-color: #ffffff;
+        border-radius: 67px;
+        border: none;
+    }
+    button {
+        background-color: hsl(12, 88%, 59%);
+        font-weight: bold;
+        padding: 13px 20px;
+        border-radius: 67px;
+        border: none;
+        outline: none;
+        color: #ffffff;
+    }
+}
+
+@media(min-width: 980px) {
+    .footer_form {
+        order: 1;
+        padding-bottom: 0;
+    }
+}

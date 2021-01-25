@@ -1,0 +1,22 @@
+body>footer nav {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    ul {
+        display: flex;
+        flex-direction: column;
+        li {
+            padding-top: 20px;
+            a {
+                color: #ffffff;
+            }
+        }
+    }
+}
+
+@media(min-width:980px) {
+    body>footer nav {
+        gap: 100px;
+    }
+}
