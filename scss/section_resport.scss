@@ -1,0 +1,50 @@
+.section_report_container {
+    h3 {
+        margin: 0;
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+    article {
+        max-width: 375px;
+        .figcaption {
+            position: relative;
+        }
+        div.figcaption:not(:nth-of-type(1)) {
+            display: none;
+        }
+        .report_container {
+            background-color: hsl(0, 0%, 98%);
+            padding: 20px;
+            p {
+                text-align: center;
+            }
+            .profile_name {
+                padding-top: 30px;
+            }
+        }
+        .profile_container {
+            text-align: center;
+            img {
+                width: 73px;
+                position: absolute;
+                top: -14%;
+                left: 41%;
+            }
+        }
+    }
+}
+
+@media(min-width: 980px) {
+    .section_report_container {
+        article {
+            max-width: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 30px;
+            div.figcaption:not(:nth-of-type(1)) {
+                display: block;
+            }
+        }
+    }
+}

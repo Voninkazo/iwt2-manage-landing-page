@@ -32,6 +32,7 @@ h3 {
   font-size: 37px;
   line-height: 48px;
   font-weight: bold;
+  text-align: center;
 }
 
 a {
@@ -250,6 +251,52 @@ input[type=checkbox]:checked ~ header label.icon_close {
   }
   .section_differenciation_container .article_container article p {
     padding-left: 80px;
+  }
+}
+.section_report_container h3 {
+  margin: 0;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+.section_report_container article {
+  max-width: 375px;
+}
+.section_report_container article .figcaption {
+  position: relative;
+}
+.section_report_container article div.figcaption:not(:nth-of-type(1)) {
+  display: none;
+}
+.section_report_container article .report_container {
+  background-color: #fafafa;
+  padding: 20px;
+}
+.section_report_container article .report_container p {
+  text-align: center;
+}
+.section_report_container article .report_container .profile_name {
+  padding-top: 30px;
+}
+.section_report_container article .profile_container {
+  text-align: center;
+}
+.section_report_container article .profile_container img {
+  width: 73px;
+  position: absolute;
+  top: -14%;
+  left: 41%;
+}
+
+@media (min-width: 980px) {
+  .section_report_container article {
+    max-width: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  .section_report_container article div.figcaption:not(:nth-of-type(1)) {
+    display: block;
   }
 }
 
