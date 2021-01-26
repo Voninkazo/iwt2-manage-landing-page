@@ -1,6 +1,9 @@
+html {
+    font-family: 'Vietnam';
+}
+
 body {
     margin: 0;
-    font-family: 'Be Vietnam';
 }
 
 .container {
@@ -9,10 +12,10 @@ body {
 }
 
 h2 {
-    font-family: 'Be Vietnam Bold';
-    font-size: 36px;
-    line-height: 40px;
-    color: hsl(233, 12%, 13%);
+    font-family: 'Vietnam Bold';
+    font-size: 41px;
+    line-height: 53px;
+    color: #2D314D;
     font-weight: bold;
 }
 
@@ -43,5 +46,9 @@ ul {
     h2 {
         font-size: 57px;
         line-height: 63px;
+    }
+    h1 {
+        margin: 0;
+        padding-top: 20px;
     }
 }
