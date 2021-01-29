@@ -12,3 +12,8 @@
     background-color: hsl(12, 88%, 59%);
     box-shadow: inset 0 0 -1em hsl(13, 100%, 96%), 0 0 0 1px hsl(13, 100%, 96%), 0.3em 0.3em 1em hsl(13, 100%, 96%);
 }
+
+.button_get_started:hover {
+    background-color: hsl(12, 100%, 51%);
+    transition: .5s;
+}

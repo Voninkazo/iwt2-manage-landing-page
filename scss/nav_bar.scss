@@ -71,6 +71,14 @@
                 li {
                     margin-top: 0;
                     margin-left: 20px;
+                    a {
+                        font-weight: 500;
+                    }
+                    a:hover {
+                        color: #ff0505;
+                        transition: .5s;
+                        font-weight: 700;
+                    }
                 }
                 li:not(:nth-of-type(1)) {
                     margin-top: 0;

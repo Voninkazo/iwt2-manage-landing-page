@@ -4,7 +4,7 @@
         text-align: center;
     }
     .sect_moreInfo__articles--item {
-        padding-top: 40px;
+        padding-top: 20px;
     }
     .sect_moreInfo__articles--title {
         display: flex;
@@ -32,6 +32,7 @@
     .section_moreInfo__container {
         display: flex;
         flex-direction: row;
+        align-items: baseline;
         gap: 100px;
         .sect_moreInfo__intro--container {
             width: 1892px;
@@ -49,6 +50,9 @@
             .sect_moreInfo__articlestexts {
                 padding-left: 80px;
             }
+            // .sect_moreInfo__articles--item {
+            //     padding-top: 20px;
+            // }
         }
     }
 }

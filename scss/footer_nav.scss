@@ -13,6 +13,10 @@
                 color: #ffffff;
                 white-space: nowrap;
             }
+            a:hover {
+                color: hsl(12, 100%, 51%);
+                transition: .5s;
+            }
         }
     }
 }

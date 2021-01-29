@@ -12,6 +12,11 @@
             background-color: #ffffff;
             white-space: nowrap;
         }
+        .button_get_started:hover {
+            background-color: hsl(12, 100%, 51%);
+            color: #ffffff;
+            transition: .5s;
+        }
     }
 }
 
