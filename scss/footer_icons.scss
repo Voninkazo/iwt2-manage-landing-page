@@ -28,11 +28,18 @@
 }
 
 @media(min-width: 1114px) {
-    .footer_icons__container {
-        display: flex;
-        flex-direction: column;
-        gap: 86px;
-        order: -1;
-        padding: 0;
+    .footer_icons {
+        gap: 60px;
+        .footer_icons__container {
+            display: flex;
+            flex-direction: row;
+            gap: 30 px;
+            order: 1;
+            padding: 0;
+        }
+        .footer_logo__container {
+            text-align: start;
+            order: -1;
+        }
     }
 }

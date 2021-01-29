@@ -12,14 +12,14 @@ body>footer {
 }
 
 @media(min-width: 1114px) {
-    .footer_container {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        column-gap: 100px;
+    .footer_mainContainer {
+        display: flex;
+        flex-direction: row-reverse;
         align-items: baseline;
+        justify-content: space-between;
     }
     body>footer {
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
 }
