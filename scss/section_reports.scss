@@ -40,20 +40,19 @@
 }
 
 @media(min-width: 1114px) {
-    .section_report__container {
-        .sect_report__articles--mainContainer {
-            max-width: none;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            gap: 30px;
-            div.sect_report__articles--item:not(:nth-of-type(1)) {
-                display: block;
+    .section_report {
+        padding-bottom: 100px;
+        .section_report__container {
+            .sect_report__articles--mainContainer {
+                max-width: none;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                gap: 30px;
+                div.sect_report__articles--item:not(:nth-of-type(1)) {
+                    display: block;
+                }
             }
         }
-        // .button_start_container {
-        //     padding-top: 20px;
-        //     padding-bottom: 20px;
-        // }
     }
 }

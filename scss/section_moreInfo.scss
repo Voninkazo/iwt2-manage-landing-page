@@ -35,6 +35,9 @@
         gap: 100px;
         .sect_moreInfo__intro--container {
             width: 1892px;
+            .sect_moreInfo__intro--title {
+                text-align: start;
+            }
             .sect_moreInfo__intro--texts {
                 text-align: start;
             }
