@@ -24,6 +24,7 @@
             }
             .sect_report__articles--author {
                 padding-top: 30px;
+                text-align: center;
             }
         }
         .sect_report__articles--imgContainer {
@@ -46,7 +47,7 @@
             flex-direction: row;
             justify-content: space-between;
             gap: 30px;
-            div.sect_report__articles--imgContainer:not(:nth-of-type(1)) {
+            div.sect_report__articles--item:not(:nth-of-type(1)) {
                 display: block;
             }
         }
