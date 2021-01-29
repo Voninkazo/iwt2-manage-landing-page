@@ -1,11 +1,12 @@
-.footer_nav {
+.footer_navigation {
     display: flex;
     flex-direction: row;
     align-items: baseline;
-    justify-content: space-between;
+    justify-content: center;
     .footer_nav__container {
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 40px;
         li {
             padding-top: 20px;
             a {

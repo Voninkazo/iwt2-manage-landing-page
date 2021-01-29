@@ -387,8 +387,9 @@ body > footer .footer_logo__container .footer_logo svg {
 .footer_form {
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  justify-content: center;
   padding-bottom: 40px;
+  gap: 10px;
 }
 .footer_form input {
   padding: 11px 30px;
@@ -413,20 +414,21 @@ body > footer .footer_logo__container .footer_logo svg {
     padding-bottom: 0;
   }
 }
-.footer_nav {
+.footer_navigation {
   display: flex;
   flex-direction: row;
   align-items: baseline;
-  justify-content: space-between;
+  justify-content: center;
 }
-.footer_nav .footer_nav__container {
-  display: flex;
-  flex-direction: column;
+.footer_navigation .footer_nav__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 40px;
 }
-.footer_nav .footer_nav__container li {
+.footer_navigation .footer_nav__container li {
   padding-top: 20px;
 }
-.footer_nav .footer_nav__container li a {
+.footer_navigation .footer_nav__container li a {
   color: #ffffff;
   white-space: nowrap;
 }
@@ -437,13 +439,18 @@ body > footer .footer_logo__container .footer_logo svg {
   }
 }
 .footer_icons {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
   padding-top: 20px;
-  padding-bottom: 20px;
+}
+.footer_icons .footer_logo__container {
+  text-align: center;
 }
 .footer_icons .footer_icons__container {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 40px;
 }
 .footer_icons .footer_icons__container li a span {
   display: none;

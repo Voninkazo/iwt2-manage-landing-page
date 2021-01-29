@@ -1,8 +1,9 @@
 .footer_form {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    justify-content: center;
     padding-bottom: 40px;
+    gap: 10px;
     input {
         padding: 11px 30px;
         background-color: #ffffff;

@@ -1,10 +1,15 @@
 .footer_icons {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
     padding-top: 20px;
-    padding-bottom: 20px;
+    .footer_logo__container {
+        text-align: center;
+    }
     .footer_icons__container {
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        justify-content: center;
+        gap: 40px;
         li {
             a {
                 span {
