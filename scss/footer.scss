@@ -2,7 +2,7 @@ body>footer {
     background-color: #000000;
     padding-top: 100px;
     padding-bottom: 100px;
-    .footer_logo_container {
+    .footer_logo__container {
         .footer_logo {
             svg {
                 fill: #ffffff;
@@ -11,8 +11,8 @@ body>footer {
     }
 }
 
-@media(min-width: 980px) {
-    footer>div.container {
+@media(min-width: 1114px) {
+    .footer_container {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         column-gap: 100px;

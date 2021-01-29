@@ -1,9 +1,9 @@
-body>footer nav {
+.footer_nav {
     display: flex;
     flex-direction: row;
     align-items: baseline;
     justify-content: space-between;
-    ul {
+    .footer_nav__container {
         display: flex;
         flex-direction: column;
         li {
@@ -16,8 +16,8 @@ body>footer nav {
     }
 }
 
-@media(min-width:980px) {
-    body>footer nav {
+@media(min-width:1114px) {
+    .footer_nav {
         gap: 100px;
     }
 }

@@ -1,8 +1,8 @@
 body>header {
-    background-image: url(../images/bg-tablet-pattern.svg);
-    background-repeat: no-repeat;
-    background-position: 30% 30%;
-    background-size: cover;
+    // background-image: url(../images/bg-tablet-pattern.svg);
+    // background-repeat: no-repeat;
+    // background-position: 30% 30%;
+    // background-size: cover;
 }
 
 .header_container {
@@ -21,7 +21,7 @@ body>header {
     }
 }
 
-@media(min-width: 980px) {
+@media(min-width: 1114px) {
     .header_container {
         padding-top: 50px;
         align-items: center;

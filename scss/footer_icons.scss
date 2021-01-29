@@ -1,7 +1,7 @@
-.footer_icons_container {
+.footer_icons {
     padding-top: 20px;
     padding-bottom: 20px;
-    ul {
+    .footer_icons__container {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -22,8 +22,8 @@
     }
 }
 
-@media(min-width: 980px) {
-    .footer_icons_container {
+@media(min-width: 1114px) {
+    .footer_icons__container {
         display: flex;
         flex-direction: column;
         gap: 86px;
